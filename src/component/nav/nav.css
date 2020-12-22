@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+    color:#ccc;
+    line-height: 50px;
+}
+a:hover{
+    color:#eeeeee;
+}
+
+.nav{
+    display: inline-block;
+    height: 50px;
+    float: right;
+    margin:0 80px 0 0;
+}
+
+.nav ul li{
+    float: left;
+    margin:0 20px;
+    font-size: 13px;
+    line-height: 25px;
+}
