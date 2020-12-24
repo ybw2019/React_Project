@@ -5,7 +5,7 @@ body,div,ul,li,span,p{
 }
 #container{
     font-size: 62.5%;
-    height: 120em;
+    height: 228em;
     background-color: #e1e1e1;
 }
 #navbar{
@@ -65,4 +65,223 @@ body,div,ul,li,span,p{
     border-radius: 6px;
     color: white;
     padding: 10px 0;
+}
+
+.panel2{
+    float: right;
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 20px 0 0 0 ;
+}
+.panel2 .header{
+    height: 40px;
+    background-color: #f6f6f6;
+}
+.panel2 .header p{
+    font-size: 14px;
+    line-height: 40px;
+    padding:0 0 0 10px;
+}
+.panel2 .inner li{
+    padding:0 0 0 10px;
+    width: 100%;
+    height: 30px;
+}
+.panel2 .inner a {
+    color:#778087;
+}
+
+.panel3{
+    float: right;
+    width: 300px;
+    height: 380px;
+    background-color: #ffffff;
+    margin: 20px 0 0 0 ;
+}
+.panel3 .header p{
+    background-color: #f6f6f6;
+    line-height: 40px;
+    padding:0 0 0 10px;
+}
+.panel3 .header p a{
+    color:#778087;
+    padding:0 0 0 30px;
+}
+.panel3 .inner li{
+    padding:0 0 0 10px;
+    width: 100%;
+    height: 30px;
+    color:#778087;
+}
+.panel3 .inner li a{
+    color:#778087;
+    padding:0 0 0 30px;
+}
+
+.panel4{
+    float: right;
+    width: 300px;
+    height: 220px;
+    background-color: #ffffff;
+    margin: 20px 0 0 0 ;
+}
+.panel4 .header p{
+    background-color: #f6f6f6;
+    line-height: 40px;
+    padding:0 0 0 10px;
+}
+.panel4 .inner li{
+    padding:0 0 0 10px;
+}
+.panel4 img{
+    width: 150px;
+    width: 150px;
+}
+
+.panel5{
+    float: right;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 20px 0 0 0 ;
+}
+.panel5 .header p{
+    background-color: #f6f6f6;
+    line-height: 40px;
+    padding:0 0 0 10px;
+}
+.panel5 .inner img{
+    display: block;
+    padding:10px 0 0 50px;
+}
+.panel5 .inner a{
+    display: block;
+    text-align: center;
+}
+
+
+#content{
+    float: left;
+    height: 2000px;
+    width: 1060px;
+    background-color: #fff;
+    margin:20px 10px 0 60px;
+}
+#content .header{
+    height: 40px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+#content .header li{
+    float: left;
+}
+#content .header li a{
+    line-height: 40px;
+    margin: 0 0 0 30px;
+    font-size: 14px;
+    color:#80bd01;
+}
+#content .header li a:hover{
+    color:#08c;
+}
+#content .topic_list .cell{
+    width: 1060px;
+    height: 50px;
+    border-bottom: 1px solid #f0f0f0;
+}
+#content .topic_list .cell .user_img{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    margin: 10px 20px 0 10px;
+}
+#content .topic_list .cell .user_img img{
+    width: 30px;
+    height: 30px;
+}
+#content .topic_list .cell .count{
+    display: inline-block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+#content .topic_list .cell .count .reply{
+    font-size: 14px;
+    color: #9E78C0;
+}
+#content .topic_list .cell .count .visited{
+    font-size: 12px;
+    color: #B4B4B4;
+}
+#content .topic_list .cell .classify{
+    display: inline-block;
+    width: 32px;
+    height: 18px;
+    text-align: center;
+    background-color: #80bd01;
+    color: #ffffff;
+    border-radius: 4px;
+    margin: 0 4px 0 0;
+    padding: 2px 4px;
+}
+#content .topic_list .cell .title{
+    display: inline-block;
+    height: 32px;
+    width: 700px;
+    line-height: 32px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+#content .topic_list .cell .float_right{
+    display: inline-block;
+    margin: 0 0 0 120px;
+}
+#content .topic_list .cell .little_user_img{
+    display: inline-block;
+    margin: 0 30px 0 0;
+}
+#content .topic_list .cell .little_user_img img{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+#content .topic_list .cell .reply_time{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: #778087;
+}
+
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    float: left;
+    margin: 20px 0 0 0;
+}
+#footer .main{
+    width: 90%;
+    height: 100%;
+    margin:0 auto;
+}
+#footer .main a{
+    font-size: 12px;
+    color: #666666;
+}
+#footer .main p{
+    font-size: 14px;
+    color: #ABABAB;
+}
+#footer .main .spe{
+    color: #0088CC;
+}
+#footer .main .img1{
+    width:92px;
+}
+#footer .main .img2{
+    width:115px;
 }
