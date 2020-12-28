@@ -2,5 +2,6 @@ import React from 'react';
 import ReactDOM from "react-dom";
 import App from "./App";
 import "../src/index.css";
+import AddList from "./component/showList/showList";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<AddList />, document.getElementById("root"));

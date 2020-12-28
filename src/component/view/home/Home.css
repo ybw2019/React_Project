@@ -3,6 +3,16 @@ body,div,ul,li,span,p{
     padding:0;
     list-style: none;
 }
+/* tab切换时，处于焦点状态的标签 */
+.on_active{
+    background-color: #80BD01;
+    color: #ffffff!important;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+
+/*                             */
 #container{
     font-size: 62.5%;
     height: 228em;
@@ -189,12 +199,14 @@ body,div,ul,li,span,p{
     width: 1060px;
     height: 50px;
     border-bottom: 1px solid #f0f0f0;
+    position: relative;
 }
 #content .topic_list .cell .user_img{
+    position: absolute;
+    top: 10px;
+    left:20px;
     display: inline-block;
-    float: left;
     height: 30px;
-    margin: 10px 20px 0 10px;
 }
 #content .topic_list .cell .user_img img{
     width: 30px;
@@ -202,7 +214,9 @@ body,div,ul,li,span,p{
 }
 #content .topic_list .cell .count{
     display: inline-block;
-    float: left;
+    position: absolute;
+    top: 0px;
+    left: 60px;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -217,6 +231,9 @@ body,div,ul,li,span,p{
 }
 #content .topic_list .cell .classify{
     display: inline-block;
+    position: absolute;
+    top: 14px;
+    left: 120px;
     width: 32px;
     height: 18px;
     text-align: center;
@@ -228,6 +245,9 @@ body,div,ul,li,span,p{
 }
 #content .topic_list .cell .title{
     display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 170px;
     height: 32px;
     width: 700px;
     line-height: 32px;
@@ -237,21 +257,25 @@ body,div,ul,li,span,p{
 }
 #content .topic_list .cell .float_right{
     display: inline-block;
-    margin: 0 0 0 120px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top:0;
+    right:0;
 }
-#content .topic_list .cell .little_user_img{
+#content .topic_list .cell .float_right img{
     display: inline-block;
-    margin: 0 30px 0 0;
-}
-#content .topic_list .cell .little_user_img img{
-    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: 60px;
     width: 18px;
     height: 18px;
 }
 #content .topic_list .cell .reply_time{
     display: inline-block;
-    height: 50px;
-    line-height: 50px;
+    position: absolute;
+    top: 0;
+    right: 10px;
     color: #778087;
 }
 

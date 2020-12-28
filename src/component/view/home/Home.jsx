@@ -1,8 +1,18 @@
 import React, { Component } from "react";
 import Nav from "../../nav/nav";
 import "./Home.css";
+import Api from "../../../api/api";
 
 export default class Home extends Component {
+    componentWillMount() {
+        let allList = Api.getAllList();
+        allList.then(
+            result => {
+                let data = result.data;
+
+            }
+        );
+    }
     render() {
         return (
             <div id="container">
@@ -100,7 +110,7 @@ export default class Home extends Component {
                     <div id="content">
                         <div className="header">
                             <ul>
-                                <li className="item1"><a>全部</a></li>
+                                <li className="item1"><a className="on_active">全部</a></li>
                                 <li className="item2"><a>精华</a></li>
                                 <li className="item3"><a>分享</a></li>
                                 <li className="item4"><a>问答</a></li>
@@ -120,10 +130,8 @@ export default class Home extends Component {
                                 </div>
                                 <span className="classify">问答</span>
                                 <a className="title">目前有没有哪个前端UI框架只用JS就能生成页面的</a>
-                                <a className="float_right">
-                                    <a className="little_user_img" href="/topic/5fe00b420f99cb5d385e3a74#5fe2b3ec98427efdf16a9f76">
-                                        <img src="https://avatars3.githubusercontent.com/u/6591466?v=4&s=120" alt="ss"></img>
-                                    </a>
+                                <a className="float_right" href="/topic/5fe00b420f99cb5d385e3a74#5fe2b3ec98427efdf16a9f76">
+                                    <img src="https://avatars3.githubusercontent.com/u/6591466?v=4&s=120" alt=""></img>
                                     <a className="reply_time">1天前</a>
                                 </a>
                             </div>
